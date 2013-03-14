@@ -1,0 +1,20 @@
+{
+  "name": "needlerjs_repo",
+  "version": "0.0.1",
+  "description": "Simple IoC container for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": "",
+  "keywords": [
+    "ioc",
+    "javascript"
+  ],
+  "author": "m-j",
+  "license": "BSD",
+  "devDependencies": {
+	"mocha": "*",
+	"chai": "*"
+	}
+}
