@@ -1,5 +1,5 @@
 ﻿var expect = require("chai").expect;
-var ioc_container = require("../../app/common/ioc-container.js");
+var ioc_container = require("../lib/ioc-container.js");
 
 describe("ioc-container module", function () {
     describe("Kernel", function () {
