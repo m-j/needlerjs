@@ -14,4 +14,4 @@ kernel.bindFunction("testFunc", function () {
 }, "singleton");
 kernel.bindFunction("testFunc2", function () {
 });
-kernel.get("TestClass");
+var testClassInstance = kernel.get("TestClass");

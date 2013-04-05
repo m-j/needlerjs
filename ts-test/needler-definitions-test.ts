@@ -15,4 +15,4 @@ kernel.bind("TestClass", TestClass);
 kernel.bind("TestClass", TestClass, "singleton");
 kernel.bindFunction("testFunc", () => {}, "singleton");
 kernel.bindFunction("testFunc2", () => {});
-kernel.get("TestClass");
+var testClassInstance = kernel.get("TestClass");
