@@ -1,8 +1,10 @@
 declare module needler {
-    export interface Kernel {
-
+    export class Kernel {
+        bind(serviceName : string, constructor : any, scope? : string);
+        bindFunction (serviceName : string, func : Function, scope? : string);
+        get(serviceName: string);
     }
 
-    declare function dupa_i_chuj();
+    export function depends(constructor : any, dependenciesArray : string[]);
 }
 
