@@ -223,7 +223,7 @@ describe("ioc-container module", function () {
         it("should set dependencies array", function(){
             var A = function(){};
 
-            ioc_container.dependencies(A, ["B","C"]);
+            ioc_container.depends(A, ["B","C"]);
             expect(A.__dependsOn).to.deep.equal(["B", "C"]);
         });
     });
