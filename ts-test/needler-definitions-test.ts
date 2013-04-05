@@ -2,7 +2,6 @@
 
 //import needler = module("../lib/needler")
 
-needler.dupa();
-
+needler.dupa_i_chuj();
 
 

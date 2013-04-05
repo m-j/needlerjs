@@ -3,6 +3,6 @@ declare module needler {
 
     }
 
-    declare function dupa();
+    declare function dupa_i_chuj();
 }
 
